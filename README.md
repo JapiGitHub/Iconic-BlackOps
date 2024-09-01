@@ -1,9 +1,14 @@
-aina ku teet muutoksia
+# Iconic-BlackOps
+
+### at the moment only .linpeas is made to work. WIP
 
 dev requirements
-npm install -g vsce
+`npm install -g vsce`
 
-$vsce package
-pois vs codesta
-[$] codium --install-extension hack-theme/hack-theme-0.0.1.vsix
-takas vs codeen. toimii
+### refresh changes
+- `$vsce package`
+- quit vs code
+- `$ codium --install-extension hack-theme/hack-theme-0.0.1.vsix`
+- back to vs code
+
+![alt text](image.png) 
