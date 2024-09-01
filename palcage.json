@@ -1,0 +1,30 @@
+{
+    "name": "hack-theme",
+    "displayName": "Hack Theme",
+    "description": "A custom theme with a special icon for .linpeas files.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes",
+        "Icon Themes"
+    ],
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "hack-icon-theme",
+                "label": "Hack Icon Theme",
+                "path": "./icons/icons.json"
+            }
+        ],
+        "languages": [
+            {
+                "id": "linpeas",
+                "aliases": ["LinPeas"],
+                "extensions": [".linpeas"],
+                "configuration": "./language-configuration.json"
+            }
+        ]
+    }
+}

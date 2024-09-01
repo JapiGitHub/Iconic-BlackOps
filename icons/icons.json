@@ -1,0 +1,10 @@
+{
+    "iconDefinitions": {
+        "linpeas-icon": {
+            "iconPath": "../linpeas-icon.png"
+        }
+    },
+    "fileExtensions": {
+        "linpeas": "linpeas-icon"
+    }
+}
