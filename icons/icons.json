@@ -1,10 +1,14 @@
 {
     "iconDefinitions": {
         "linpeas-icon": {
-            "iconPath": "../linpeas-icon.png"
+            "iconPath": "./linpeas-icon.png"
+        },
+        "sqlmap-icon": {
+            "iconPath": "./sqlmap-icon.png"
         }
     },
     "fileExtensions": {
-        "linpeas": "linpeas-icon"
+        "linpeas": "linpeas-icon",
+        "sqlmap": "sqlmap-icon"
     }
 }

@@ -2,7 +2,7 @@
     "name": "hack-theme",
     "displayName": "Hack Theme",
     "description": "A custom theme with a special icon for .linpeas files.",
-    "version": "0.0.1",
+    "version": "0.0.3-rc1",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -10,6 +10,10 @@
         "Themes",
         "Icon Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JapiGitHub/Iconic-BlackOps.git"
+    },
     "contributes": {
         "iconThemes": [
             {
@@ -21,8 +25,14 @@
         "languages": [
             {
                 "id": "linpeas",
-                "aliases": ["LinPeas"],
+                "aliases": ["LinPeas log"],
                 "extensions": [".linpeas"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "sqlmap",
+                "aliases": ["sqlmap log"],
+                "extensions": [".sqlmap"],
                 "configuration": "./language-configuration.json"
             }
         ]
