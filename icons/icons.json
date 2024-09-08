@@ -5,10 +5,14 @@
         },
         "sqlmap-icon": {
             "iconPath": "./sqlmap-icon.png"
+        },
+        "nmap-icon": {
+            "iconPath": "./nmap-icon.png"
         }
     },
     "fileExtensions": {
         "linpeas": "linpeas-icon",
-        "sqlmap": "sqlmap-icon"
+        "sqlmap": "sqlmap-icon",
+        "nmap": "nmap-icon"
     }
 }
