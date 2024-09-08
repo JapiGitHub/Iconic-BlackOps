@@ -6,10 +6,6 @@
 
 ---
 
-### at the moment only .linpeas and .sqlmap is made to work. WIP
-
----
-
 #### dev requirements
 `npm install -g vsce`
 please use code and not codium. the codium deletes your whole folder sometimes :S
@@ -22,7 +18,8 @@ please use code and not codium. the codium deletes your whole folder sometimes :
 
 ---
 
-![alt text](image.png)
+# supported extensions and single files list
+![alt text](image-1.png)
 
 ---
 
@@ -33,3 +30,12 @@ please use code and not codium. the codium deletes your whole folder sometimes :
 - change version to newer in package.json
 - run  `$ vsce package`
 - run `$ codium --install-extension hack-theme/hack-theme-0.0.[your version].vsix`
+
+---
+
+## TODO:
+- add proper file extensions like .iso for ghidra
+- get some default json, txt, zip, php, py
+- passwd, common LOOT files as a good list in the json config files
+- #0a961e for green terminal note
+- jos /etc/passwd näyttää liian pieneltä, ni laita vaan lootin kuva kaikkiin tollasiin

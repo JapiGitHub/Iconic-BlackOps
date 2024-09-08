@@ -1,18 +1,50 @@
 {
     "iconDefinitions": {
-        "linpeas-icon": {
-            "iconPath": "./linpeas-icon.png"
-        },
-        "sqlmap-icon": {
-            "iconPath": "./sqlmap-icon.png"
-        },
-        "nmap-icon": {
-            "iconPath": "./nmap-icon.png"
-        }
+      "linpeas-icon": {
+        "iconPath": "./linpeas-icon.png"
+      },
+      "sqlmap-icon": {
+        "iconPath": "./sqlmap-icon.png"
+      },
+      "nmap-icon": {
+        "iconPath": "./nmap-icon.png"
+      },
+      "ffuf-icon": {
+        "iconPath": "./ffuf-icon.png"
+      },
+      "burpsuite-icon": {
+        "iconPath": "./burpsuite-icon.png"
+      },
+      "gobuster-icon": {
+        "iconPath": "./gobuster-icon.png"
+      },
+      "dirsearch-icon": {
+        "iconPath": "./dirsearch-icon.png"
+      },
+      "ghidra-icon": {
+        "iconPath": "./ghidra-icon.png"
+      },
+      "metasploit-icon": {
+        "iconPath": "./metasploit-icon.png"
+      },
+      "pcap-icon": {
+        "iconPath": "./pcap-icon.png"
+      },
+      "ps-icon": {
+        "iconPath": "./ps-icon.png"
+      }
     },
     "fileExtensions": {
-        "linpeas": "linpeas-icon",
-        "sqlmap": "sqlmap-icon",
-        "nmap": "nmap-icon"
+      "linpeas": "linpeas-icon",
+      "sqlmap": "sqlmap-icon",
+      "nmap": "nmap-icon",
+      "ffuf": "ffuf-icon",
+      "burpsuite": "burpsuite-icon",
+      "gobuster": "gobuster-icon",
+      "dirsearch": "dirsearch-icon",
+      "ghidra": "ghidra-icon",
+      "metasploit": "metasploit-icon",
+      "pcap": "pcap-icon",
+      "ps": "ps-icon"
     }
-}
+  }

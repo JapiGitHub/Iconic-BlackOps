@@ -2,7 +2,7 @@
     "name": "hack-theme",
     "displayName": "Hack Theme",
     "description": "A custom theme with a special icon for .linpeas .nmap and other hacking log files.",
-    "version": "0.0.3-rc2",
+    "version": "0.0.4-rc1",
     "engines": {
         "vscode": "^1.60.0"
     },
