@@ -2,7 +2,7 @@
     "name": "hack-theme",
     "displayName": "Hack Theme",
     "description": "A custom theme with a special icon for .linpeas .nmap and other hacking log files.",
-    "version": "0.0.4-rc1",
+    "version": "0.0.5-rc1",
     "engines": {
         "vscode": "^1.60.0"
     },
@@ -39,6 +39,18 @@
                 "id": "nmap",
                 "aliases": ["nmap log"],
                 "extensions": [".nmap"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "loot",
+                "aliases": ["loot log"],
+                "extensions": [".loot"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "passwd",
+                "aliases": ["passwd log"],
+                "extensions": [".passwd"],
                 "configuration": "./language-configuration.json"
             }
         ]

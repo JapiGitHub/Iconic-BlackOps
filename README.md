@@ -39,3 +39,4 @@ please use code and not codium. the codium deletes your whole folder sometimes :
 - passwd, common LOOT files as a good list in the json config files
 - #0a961e for green terminal note
 - jos /etc/passwd näyttää liian pieneltä, ni laita vaan lootin kuva kaikkiin tollasiin
+

@@ -32,6 +32,18 @@
       },
       "ps-icon": {
         "iconPath": "./ps-icon.png"
+      },
+      "passwd-icon": {
+        "iconPath": "./passwd-icon.png"
+      },
+      "loot-icon": {
+        "iconPath": "./loot-icon.png"
+      },
+      "md-icon": {
+        "iconPath": "./md-icon.png"
+      },
+      "bash-icon": {
+        "iconPath": "./bash-icon.png"
       }
     },
     "fileExtensions": {
@@ -45,6 +57,10 @@
       "ghidra": "ghidra-icon",
       "metasploit": "metasploit-icon",
       "pcap": "pcap-icon",
-      "ps": "ps-icon"
+      "ps": "ps-icon",
+      "loot": "loot-icon",
+      "passwd": "passwd-icon",
+      "sh": "bash-icon",
+      "md": "md-icon"
     }
   }
