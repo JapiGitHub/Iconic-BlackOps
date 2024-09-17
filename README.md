@@ -19,7 +19,7 @@ please use code and not codium. the codium deletes your whole folder sometimes :
 ---
 
 # supported extensions and single files list
-![alt text](image-1.png)
+![alt text](image-2.png)
 
 ---
 
