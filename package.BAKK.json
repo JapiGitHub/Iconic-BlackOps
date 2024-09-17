@@ -1,0 +1,61 @@
+{
+    "name": "hack-theme",
+    "displayName": "Hack Theme",
+    "description": "A custom theme with a special icon for .linpeas .nmap and other hacking log files.",
+    "version": "0.0.5-rc2",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Themes",
+        "Icon Themes"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JapiGitHub/Iconic-BlackOps.git"
+    },
+    "contributes": {
+        "iconThemes": [
+            {
+                "id": "hack-icon-theme",
+                "label": "Hack Icon Theme",
+                "path": "./icons/icons.json"
+            }
+        ],
+        "languages": [
+            {
+                "id": "linpeas",
+                "aliases": ["LinPeas log"],
+                "extensions": [".linpeas"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "sqlmap",
+                "aliases": ["sqlmap log"],
+                "extensions": [".sqlmap"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "nmap",
+                "aliases": ["nmap log"],
+                "extensions": [".nmap"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "loot",
+                "aliases": ["loot log"],
+                "extensions": [".loot"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "id": "passwd",
+                "aliases": ["passwd log"],
+                "extensions": [".passwd"],
+                "configuration": "./language-configuration.json"
+            },
+            {
+                "_comment": "this is here for ADDER.sh"
+            }
+        ]
+    }
+}
